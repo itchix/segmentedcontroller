@@ -56,8 +56,8 @@ public class SegmentedControl: UIControl {
     }
     
     public var animationType: AnimationType = .bounce
-    
     public let selectedBackgroundView = UIView()
+    public var isInitialySelected: Bool = true
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
